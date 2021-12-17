@@ -20,7 +20,7 @@ async def start(bot, message: Message):
                 [
                     InlineKeyboardButton
                         (
-                            "📦 Source 📦, url="https://github.com/SpamShield/service-regexlink-cleaner"
+                            "📦 Source 📦", url="https://github.com/SpamShield/service-regexlink-cleaner"
                         )
                 ]
             ]
