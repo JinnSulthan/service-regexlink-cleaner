@@ -1,7 +1,7 @@
 {
     "name": "service-regexlink-cleaner",
     "description": "A Telegram botwritten in python using pyrogram",
-    "repository": "https://github.com/SpamShield/service-regexlink-cleaner",
+    "repository": "https://github.com/MR-JINN-OF-TG/service-regexlink-cleaner",
     "keywords": ["telegram", "service", "regex","link", "cleaner"],
     "env": {
         "BOT_TOKEN": {
