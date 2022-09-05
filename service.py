@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, User, Message
 
 Client = Client(
-    "Service message remover",
+    "service-regexlink-cleaner",
     bot_token = os.environ["BOT_TOKEN"],
     api_id = int(os.environ["API_ID"]),
     api_hash = os.environ["API_HASH"]
@@ -11,7 +11,7 @@ Client = Client(
 
 START_BUTTON = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('SOURCE CODE', url="https://github.com/MR-JINN-OF-TG/service-regexlink-cleaner")
+        InlineKeyboardButton('📃Source Code', url="https://github.com/MR-JINN-OF-TG/service-regexlink-cleaner")
         ]]
     ) 
 
